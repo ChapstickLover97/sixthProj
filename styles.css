@@ -1,0 +1,69 @@
+.header {
+    font-size: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: dotted;
+    background: red;
+}
+
+.top-half {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    height: 35vh;
+    border-block: double;
+    border-block-start: none;
+    border-block-end-width: 10px;
+
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2C7B75;
+    padding: 5px;
+}
+
+.intro-container {
+    font-size: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCCE2D;
+}
+
+.search-container, .intro-container {
+    flex-grow: 1;
+}
+
+.display-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 100vh;
+    background-color: #2DFCBE;
+}
+
+
+.bottom-half {
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+}
+
+.city-cards, .forecast-cards-container {
+    flex-direction: row;
+}
+
+.forecast-cards-container {
+    border: dashed;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.forecast-card {
+    border: dotted;
+}
